@@ -43,7 +43,7 @@ r3 = Radiobutton(root, text="Man looking at his phone", variable=v, value=3,comm
 r1.pack(anchor=S)
 r2.pack(anchor=S)
 r3.pack(anchor=S)
-
+#this is changed
 
 
 root.mainloop()
