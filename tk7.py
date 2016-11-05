@@ -5,15 +5,17 @@ root = Tk()
 def headphones():
     photoHP = PhotoImage(file="C:\\Users\\andyj\\Documents\\tkinter\\headphones.gif")
     canvas.create_image(200,100, anchor = NW, image = photoHP)
+    Tk.update()
     
 def hiVis():
     photoHV = PhotoImage(file="C:\\Users\\andyj\\Documents\\tkinter\\hiVis.gif")
     canvas.create_image(200,100, anchor = NW, image = photoHV)
+    Tk.update()
 
 def phone():
     photoP = PhotoImage(file="C:\\Users\\andyj\\Documents\\tkinter\\phone.gif")
     canvas.create_image(200,100, anchor = NW, image = photoP)
-
+    Tk.update()
 
 
 root.configure(background = "white")
@@ -43,7 +45,7 @@ r3 = Radiobutton(root, text="Man looking at his phone", variable=v, value=3,comm
 r1.pack(anchor=S)
 r2.pack(anchor=S)
 r3.pack(anchor=S)
-#this is changed
+
 
 
 root.mainloop()
