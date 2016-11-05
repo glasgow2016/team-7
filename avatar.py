@@ -81,10 +81,10 @@ def page1():
 
 
     #brake logos
-    photo1 = PhotoImage(file="C:\\Users\\andyj\\Documents\\tkinter\\brake.gif")
+    photo1 = PhotoImage(file="brake.gif")
     canvas.create_image(0,0, anchor = NW, image = photo1)
 
-    photo2 = PhotoImage(file="C:\\Users\\andyj\\Documents\\tkinter\\brake.gif")
+    photo2 = PhotoImage(file="brake.gif")
     canvas.create_image(800,0, anchor = NW, image = photo2)
 
 
