@@ -1,4 +1,4 @@
-from Tkinter import * #Neil Wood
+from Tkinter import *
 
 def walkInfo():
     root = Tk()
