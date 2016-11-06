@@ -16,7 +16,24 @@ def page2():
         print "Walking"
         #to next page
 
+    def carInfo():
+        print "Car info"
 
+    def bikeInfo():
+        print "bike info"
+
+    def walkInfo():
+        print "walk info"
+    
+    bc = Button(root, text = "More info on travelling by car", command = carInfo)
+    bc.pack(side=BOTTOM)
+   
+    bb = Button(root,text = "More info on cycling",command = bikeInfo)
+    bb.pack(side=BOTTOM)
+
+    bw = Button(root,text = "More info on walking",command = walkInfo)
+    bw.pack(side=BOTTOM)
+    
 
     canvas = Canvas(root, width = 1000, height = 300)
     canvas.pack()
